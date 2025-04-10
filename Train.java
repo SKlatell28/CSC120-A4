@@ -59,7 +59,7 @@ public class Train implements TrainRequirements {
             int compounding = 0;
             for (int i = 1; i < (this.nCars) + 1; i++) {
                 compounding += this.getCar(i).seatsRemaining();
-                System.out.println("SEATS REMAINING IS: " + okay);
+                System.out.println("SEATS REMAINING IS: " + compounding);
             }
             return compounding;
         }
